@@ -1,0 +1,115 @@
+* {
+  box-sizing: border-box;
+}
+.product {
+  background-color: #f1f1f1;
+  width: 80%;
+}
+.product-content {
+  margin-left: 30px;
+  margin-top: 12px;
+}
+.product-bar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-bottom: 1px solid #e0e0e0;
+}
+.product-bar img {
+  width: 24px;
+  height: 24px;
+}
+.product-bar p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 130%;
+  color: #151411;
+}
+.add-product {
+  background: linear-gradient(0deg, #003585, #003585), #ffffff;
+  border-radius: 10px;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  width: 152px;
+  height: 38px;
+  justify-content: center;
+  gap: 10px;
+  border: none;
+  margin-top: 26px;
+  cursor: pointer;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+}
+.filter {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.filter button {
+  gap: 10px;
+  width: 248px;
+  height: 42px;
+  background: linear-gradient(0deg, #003585, #003585), #ffffff;
+  border-radius: 5px;
+  color: #ffffff;
+  border: none;
+}
+.filter input {
+  gap: 10px;
+  width: 340px;
+  height: 40px;
+  background: #ffffff;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  padding: 10px 200px 10px 20px;
+}
+.prod-info {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  padding-left: 25px;
+  padding-right: 18px;
+  background: #e0e0e0;
+  border-radius: 0px;
+  margin-top: 24px;
+  border-radius: 10px 10px 0px 0px;
+}
+.prod-info p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #17183b;
+}
+.prod-info button {
+  border: none;
+  cursor: pointer;
+  background: #e0e0e0;
+  width: 75px;
+}
+.prod-detail {
+  width: 110px;
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  font-weight: 600;
+}
+.prod-category {
+  width: 110px;
+}
+.prod-image {
+  width: 110px;
+}
+#dropdown-btn {
+  width: 62px;
+}

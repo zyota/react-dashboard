@@ -1,0 +1,23 @@
+.add-button {
+  margin-top: 20px;
+  background: linear-gradient(0deg, #003585, #003585), #ffffff;
+}
+.add-detail {
+  display: flex;
+  justify-content: space-between;
+}
+.right-detail {
+  width: 48%;
+}
+.right-detail input {
+  width: 100%;
+}
+.left-detail {
+  width: 48%;
+}
+.left-detail input {
+  width: 100%;
+}
+.product-info {
+  margin-bottom: 20px;
+}
