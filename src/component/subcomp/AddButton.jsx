@@ -47,10 +47,10 @@ export default function Example(prop) {
 
     // console.log(data.id);
     if (data) {
-      axios.put(`http://localhost:4000/products/${data.id}`, proObject);
+      axios.put(`http://localhost:4000/addproduct/${data.id}`, proObject);
       console.log(proObject);
     } else {
-      axios.post("http://localhost:4000/product", proObject);
+      axios.post("http://localhost:4000/addproduct", proObject);
 
       console.log(proObject);
     }

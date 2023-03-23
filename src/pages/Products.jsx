@@ -27,11 +27,6 @@ export default function Products(prop) {
           <p>Бүтээгдэхүүнүүд</p>
         </div>
         <AddButton show={show} setShow={setShow} data={product} />
-        {/* <button className="add-product"> */}
-        {/* <AddButton /> */}
-        {/* <AddProduct />
-          Бараа нэмэх
-        </button> */}
 
         <div className="filter">
           <button>All</button>

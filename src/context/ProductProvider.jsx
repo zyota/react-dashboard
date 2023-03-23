@@ -6,11 +6,11 @@ export const ProductsContext = createContext();
 export default function MainHandlers({ children }) {
   const [product, setProduct] = useState([]);
   const [count, setCount] = useState(0);
-  function deleteHandler(name) {
-    axios
-      .delete(`http://localhost:4000/DeleteProduct?name=${name}`)
-      .then((res) => res.statusText === "OK" && alert("Delete"));
-  }
+  // function deleteHandler(name) {
+  //   axios
+  //     .delete(`http://localhost:4000/DeleteProduct?name=${name}`)
+  //     .then((res) => res.statusText === "OK" && alert("Delete"));
+  // }
   useEffect(() => {
     axios
       .get("http://localhost:4000/getProduct")
