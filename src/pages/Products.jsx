@@ -13,12 +13,12 @@ export default function Products(prop) {
   // console.log(product && product);
   const { test } = prop;
   const [show, setShow] = useState(false);
-  function deleteHandler(id) {
-    axios.delete(`http://localhost:4000/products/${id}`);
-    location.reload();
-  }
+  // function deleteHandler(id) {
+  //   axios.delete(`http://localhost:4000/products/${id}`);
+  //   location.reload();
+  // }
 
-  // const [product, setProduct]= useContext(MainContext);
+  // const [product, setProduct] = useContext(MainContext);
   return (
     <div className="product">
       <div className="product-content">
